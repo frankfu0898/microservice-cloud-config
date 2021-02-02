@@ -1,7 +1,7 @@
 spring:
    profiles:
      active:  dev
-
+---
 server:
   port: 6001 # 服务端口
 spring:
@@ -21,7 +21,7 @@ eureka:
   server:
     enable-self-preservation: false # 禁用自我保护机制
 
-
+---
 server:
   port: 6001 # 服务端口
 spring:
