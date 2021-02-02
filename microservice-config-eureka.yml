@@ -1,6 +1,6 @@
 spring:
    profiles:
-     actice:  dev
+     active:  dev
 
 server:
   port: 6001 # 服务端口
